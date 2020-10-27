@@ -1,0 +1,83 @@
+﻿<html>
+<head>
+	<meta charset="utf8">
+	<title>Calculadora de áreas</title>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" href="estilos.css" type="text/css"
+</head>
+<body>
+	<form name="fo">
+		<h1><center>	Calculadora de JavaScript para 	hallar áreas debajo de la curva f(x)=x^2</center></h1>
+		Capture la expresión matemática de la siguiente manera
+
+		x^2,[a,b] en donde a es el límite inferior y b es el límite superior y luego presione "=" <br/><br/>
+	<table>
+		<tr>
+			<td colspan="5"><input type="text" name="valores"
+			id="valores"></td>
+
+		</tr>
+		
+		<tr></tr>
+		
+		<tr>
+			<td><input type="button" value="7"
+			onClick="retornar(value)">		
+			</td>
+			<td><input type="button" value="8"
+			onClick="retornar(value)">
+			<td><input type="button" value="9"
+			onClick="retornar(value)">		
+			</td>
+			<td><input type="button" value="0"
+			onClick="retornar(value)">
+			<td><input type="button" value="x^2"
+			onClick="retornar(value)"></td>
+			</tr>
+
+			<tr>
+				<td><input type="button" value="3"
+				onClick="retornar(value)">		
+				</td>
+				<td><input type="button" value="4"
+				onClick="retornar(value)">
+				<td><input type="button" value="5"
+				onClick="retornar(value)">		
+				</td>				<td><input type="button" value="6"
+				onClick="retornar(value)">
+				<td><input type="button" value="n=4"
+				onClick="retornar(value)"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="."
+				onClick="retornar(value)">		
+				</td>
+				<td><input type="button" value="1"
+				onClick="retornar(value)">
+				<td><input type="button" value="2"
+				onClick="retornar(value)">		
+				</td>
+				<td><input type="button" value="<-"
+				onClick="eliminar_ultimo()">
+				<td><input type="button" value="n=10"
+				onClick="retornar(value)"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="C"
+				onClick="eliminar_todo()">		
+				</td>
+				<td><input type="button" value="x=["
+				onClick="retornar(value)">
+				<td><input type="button" value=","
+				onClick="retornar(value)">		
+				</td>
+				<td><input type="button" value="]"
+				onClick="retornar(value)">
+				<td><input type="button" value="="
+				onClick="visualiza()"></td>
+			</tr>
+	</table>
+	<h2>Elaboró: Luis Fernando García Osorio</h2>
+	</form>
+</body>
+</html>

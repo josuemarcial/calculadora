@@ -1,0 +1,53 @@
+body
+{
+	background: silver;
+
+}
+
+input[type="text"]
+{
+
+	width:100%;
+	height:100%;
+	font-size:30px;
+	font-weight:bold;
+	background-color:white;
+	border-radius: 5px;
+}
+
+input[type=button]
+{
+	width:90px;
+	height: 80px;
+	border-radius: 15px;
+	text-shadow: 1px 1px 1px gray;
+	font-family: Arial;
+	color: black;
+	font-weight: bold;
+	font-size: 27px;
+	padding: 19px;
+	text-decoration: none;
+	background-color: lightcyan;
+}	
+
+table,form
+{
+	width:550px;
+	height:400px;
+	margin:0 auto;
+}
+h1
+{
+	font-size:30px;
+	font-family: sans-serif;
+	text-shadow: 1px 1px 1px gray;
+}
+h2
+{
+	font-size:20px;
+	font-family: sans-serif;
+	text-shadow: 1px 1px 1px gray;	
+
+}
+
+
